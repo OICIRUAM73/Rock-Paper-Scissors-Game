@@ -61,7 +61,6 @@
     justify-items: center;
     position: relative;
     gap: 30px 50px;
-    margin: 2em 0px;
   }
 
   .Tokens .line {

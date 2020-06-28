@@ -3,7 +3,8 @@
 </script>
 <style>
   .Header {
-    padding: 32px;
+    height: 17vh;
+    padding: 3vh;
     padding-bottom: 0;
   }
   .Header-container {
@@ -55,7 +56,7 @@
     .Header {
       display: inline-block;
       min-width: 700px;
-      padding: 48px 0px;
+      /* padding: 48px 0px; */
     }
 
     .Header-container {
@@ -84,11 +85,11 @@
     }
   }
 
-  @media screen and (min-width: 1024px) {
+  /* @media screen and (min-width: 1024px) {
     .Header {
       padding: 48px 0px 0px 0px;
     }
-  }
+  } */
 </style>
 <div class="Header">
   <div class="Header-container">

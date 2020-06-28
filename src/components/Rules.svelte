@@ -7,20 +7,26 @@
   let handleClick = () => showModal.update(current => !current);
 </script>
 <style>
-  .Rules {
+  /* .Rules {
     position: fixed;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+  } */
+
+  .Rules {
+    height: 12vh;
+    text-align: center;
   }
 
   .Rules-container {
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 8px;
     padding: 10px 37px;
-    margin-bottom: 56px;
     cursor: pointer;
     color: hsl(0, 0%, 100%);
+    display: inline-block;
+    text-align: center;
   }
 
   .Rules-container h2 {
@@ -40,6 +46,7 @@
       right: 0;
       left: auto;
       transform: none;
+      position: fixed;
     }
 
     .Rules-container {

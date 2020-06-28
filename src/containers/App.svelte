@@ -43,5 +43,5 @@
 <Header></Header>
 <Main>
   <Game/>
-  <Rules/>
 </Main>
+<Rules/>
